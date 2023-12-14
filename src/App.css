@@ -474,13 +474,35 @@ line hr {
 }
 
 @media screen and (max-width: 500px) {
+  .custom-navbar {
+    width: 400px;
+    height: 60px;
+  }
+
+  .lsdf {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+  body {
+    width: 100dvw;
+  }
   .hero-section {
-    width: 100dvh;
+    width: 430px;
+  }
+
+  .home {
+    width: 100%;
+    object-fit: contain;
+    margin-inline: 2rem;
+    padding: 0px;
   }
   .card,
   .card2,
   .card3 {
-    width: 44vh;
+    width: 100%;
     border: none;
   }
 
