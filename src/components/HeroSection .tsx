@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div className="hero-section">
       <img
-        src="../../public/Rectangle 2.png"
+        src="/Rectangle 2.png"
         alt="Hero Background"
         className="hero-image"
       />

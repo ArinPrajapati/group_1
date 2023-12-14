@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <nav className="custom-navbar">
       <a className="navbar-brand" href="#">
-        <img src="../../public/logo.svg" alt="" />
+        <img src="/logo.svg" alt="" />
       </a>
       <div className="search">
-        <img src="../../public/search.svg" alt="" />
+        <img src="/search.svg" alt="" />
         <input
           type="text"
           placeholder="Search for your favorite groups in ATG"
