@@ -490,13 +490,13 @@ line hr {
     width: 100dvw;
   }
   .hero-section {
-    width: 430px;
+    width: 100%;
   }
 
   .home {
-    width: 100%;
+    width: calc(100% - 2rem);
     object-fit: contain;
-    margin-inline: 2rem;
+    margin-inline: 1rem;
     padding: 0px;
   }
   .card,
@@ -560,6 +560,10 @@ line hr {
     height: 60px;
   }
 
+  body {
+    width: 100dvw;
+  }
+
   .navbar-brand img {
     width: 150px;
   }
@@ -573,7 +577,7 @@ line hr {
   }
   .hero-section {
     position: relative;
-    width: 683px;
+    width: 100%;
     object-fit: cover;
     height: 267px;
   }
