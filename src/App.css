@@ -474,6 +474,9 @@ line hr {
 }
 
 @media screen and (max-width: 500px) {
+  .hero-section {
+    width: 100dvh;
+  }
   .card,
   .card2,
   .card3 {
@@ -524,7 +527,7 @@ line hr {
     width: 10vw;
   }
 
-  .hero-subheading{
+  .hero-subheading {
     width: 60vw;
   }
 }
